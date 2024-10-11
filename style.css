@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 #header {
@@ -35,3 +36,44 @@ body {
     text-align: right;
 }
 
+p{
+    background-color: #747474;
+    color: white;
+    padding: 10px;
+    text-wrap: wrap;
+    letter-spacing: 2px;
+}
+
+pre{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:forestgreen;
+    padding: 10px;
+    color: #ebebeb;
+    font-weight: 600;
+}
+
+table{
+    background-color: #017d81;
+    text-align: center;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+tr,th,td{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+th{
+    background-color: darkred;
+    color: rgb(251, 255, 0);
+}
+
+tr:nth-child(even){
+    background-color: #fff;
+    color: #830a0a;
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+}
