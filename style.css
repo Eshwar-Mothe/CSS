@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: red;
+    padding: 50px;
+}
+
+#header1,
+#header2,
+#header3 {
+    background-color: black;
+    color: #fff;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border: 3px solid #747474;
+    border-radius: 10px;
+}
+
+
+#header2{
+    border-style: solid none;
+    margin: 5px;
+    text-align: center;
+}
+
+#header3{
+    border-style: none solid;
+    margin-inline: 10px;
+    text-align: right;
+}
+
